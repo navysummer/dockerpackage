@@ -1,0 +1,7 @@
+[local-yum]
+name=local-yum
+baseurl=file:///root/dockerpackage
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=1
+priority=1
