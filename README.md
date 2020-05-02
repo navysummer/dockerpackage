@@ -1,5 +1,5 @@
 # dockerpackage
-## 1.修改docker.repo里的包的路径
+## 1.修改docker.repo里的包的路径,并讲这个文件放到/etc/yum.repos.d/
 ## 2.执行命令：createrepo -v 包的路径
 ## 3.执行命令安装docker:
 
